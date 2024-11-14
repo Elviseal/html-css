@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu nacegador.</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture><!--essa é maneira correta de colocar imagens no site, poís dessa forma a imagem ira abrir em diversas telas.
+    devemos colocar da formar que está descrito em cima da maior para a menor ou au contrário-->
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/Dreamland - Aakash Gandhi.mp3" controls autoplay></audio><!--Maneira mais simples de reproduzir uma áudio, mais depende do navegador para funcionar-->
+    <!-- FORMATOS DE ÁUDIOS MP3 WAV OGG-->
+    <!--Preload, tem 3 parametos o 'auto' que carrega junto do site 'metadata' que carregar só as informações do arquivo e o 'none' que só carrega quando dar play-->
+    <audio preload="metadata" autoplay controls loop><!--Dessa maneira o navegador vai testa todos os f ormatos baixo, e ser mesmo assim não for compatível com nenhum o navegar vai mostra uma mensagem e link para download do arquivo em MP3. -->
+        <source src="midia/Dreamland - Aakash Gandhi.mp3" type="audio/mpeg">
+        <source src="midia/Dreamland - Aakash Gandhi.ogg" type="audio/ogg">
+        <source src="midia/Dreamland - Aakash Gandhi.wav" type="audio/wav"><!--formato muito grande não é muito bom para site, somente para download-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Dreamland - Aakash Gandhi.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>

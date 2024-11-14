@@ -1,0 +1,5 @@
+exemplo de como colocar e produzir arquivos ICO, que é o melhor formato para favicon
+sites para favicon:
+Iconarchive
+Favicon.cc
+Favicon.io
