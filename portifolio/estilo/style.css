@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+:root{
+    --cor1 : #119BFA;
+    --cor2 : #FAF911;
+    --cor3 : #1121FA;
+    --cor4 : #FACA11;
+    --cor5 : #4349A5;
+    --cor6 : #46657A;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vh;
+    background-color: var(--cor1);
+}
+header {
+
+}
+figure{
+   
+    max-width: 127px;
+}
+img {
+    max-height: 127px;
+    max-width: 127px;
+}
+#vertical {
+height: 200px;
+border-right: 2px solid var(--cor2);
+display: inline;
+}
+#apresentação {
+    text-align: center;
+    display: block;
+}
+
+p{
+    border: 0px 0px 0px 1px solid black;
+    text-indent: 10px;
+    text-justify: auto;
+    
+}
