@@ -3,31 +3,61 @@
 :root{
     --cor1 : #119BFA;
     --cor2 : #FAF911;
-    --cor3 : #1121FA;
-    --cor4 : #FACA11;
+    --cor3 : #070d5f;
+    --cor4 : #6e5a08e1;
     --cor5 : #4349A5;
     --cor6 : #46657A;
 
 }
 
 body{
-    height: 100vh;
+    height: 100vw;
     width: 100vh;
-    background-color: var(--cor1);
+    background-color: var(--cor3);
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--cor6);
 
 }
 header {
-
+    
+    font-size: larger;
+    
 }
-figure{
+figure {
+    margin: 0;
+    width: 128px;
+    height: 128px;
+    border: 10px;
+    padding-left: 30%;
+    padding-top: 10%;
    
-    max-width: 127px;
 }
+
 img {
+
     max-height: 127px;
     max-width: 127px;
+    border: 10px;
+    
 }
+#linhavertical{
+    background-color: var(--cor4);
+    padding-bottom: 30%;
+    padding-left: 1%;
+    display: inline;
+    margin-left: 50%;
+    
+}
+section {
+    width: 60%;
+    height: 30%;
+    padding-left: 52%;
+    
+    
+}
+
 p{
+    padding-left: 3px;
   
     
 }
