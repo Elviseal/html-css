@@ -44,7 +44,7 @@ a:hover{
 }
 
 main{
-
+    background-color: aliceblue;
     height: 70vh;
     padding: 10px;
     position: relative;   
