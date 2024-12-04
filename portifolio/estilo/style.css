@@ -12,50 +12,64 @@
 
 body{
     height: 100vh;
-    
+    padding: 10px;
     background-color: var(--cor3);
     font-family: 'Courier New', Courier, monospace;
     color: var(--cor6);
 
 }
-
 header{
-    height: auto;
-    width: auto;
-    padding: 20px;
-}
-
-main{
-    padding: 30px;
     position: relative;
-
-}
-figure{
-    width: 127px;
-    height: auto;
-    position: absolute;
-    padding-left: 70px;
-    
-}
-img{
-
-}
-section{
-    position: absolute;
-    padding-left: 150px;
-    padding-top: 200px;
-    
+    height: 30vh;
 }
 nav{
-    text-decoration: none;
-    text-align: end;
-    margin-top: 0px;
-    
+    margin-left: 3px solid var(--cor4);
+    position: absolute;
 
-    
+   
 
+}
+li{
+    list-style: none;
 }
 a{
     text-decoration: none;
+    font-size: 0,5em ;
+    color: var(--cor6);
+}
+a:hover{
+    text-decoration:underline;
+    font-size: 1em;
+    color: var(--cor4);
+}
 
+main{
+
+    height: 70vh;
+    padding: 10px;
+    position: relative;   
+}
+figure{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+
+    left: 25%;
+    top: 25%;
+
+    transform: translate(-120%, -80%);
+}
+img{
+    height: 140px;
+    width: 140px;
+
+}
+article{
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+
+    transform: translate(-10%, 0%);
 }
