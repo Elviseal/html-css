@@ -7,69 +7,35 @@
     --cor4 : #6e5a08e1;
     --cor5 : #4349A5;
     --cor6 : #46657A;
-
 }
+ body {
 
-body{
-    height: 100vh;
-    padding: 10px;
-    background-color: var(--cor3);
-    font-family: 'Courier New', Courier, monospace;
-    color: var(--cor6);
-
-}
-header{
-    position: relative;
-    height: 30vh;
-}
-nav{
-    margin-left: 3px solid var(--cor4);
-    position: absolute;
-
+ }
+ 
+ main{
    
+  }
 
-}
-li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    font-size: 0,5em ;
-    color: var(--cor6);
-}
-a:hover{
-    text-decoration:underline;
-    font-size: 1em;
-    color: var(--cor4);
-}
+  nav{
 
-main{
-    background-color: aliceblue;
-    height: 70vh;
-    padding: 10px;
-    position: relative;   
-}
-figure{
-    height: 150px;
-    width: 150px;
-    position: absolute;
+  }
+   
+  section>figure{
 
-    left: 25%;
-    top: 25%;
+  }
 
-    transform: translate(-120%, -80%);
-}
-img{
-    height: 140px;
-    width: 140px;
+  #linhavertical{
+    width: 10px;
+    height: 200px;
+    background-color: var(--cor4);
+  }
+  #linha{
+    
+  }
 
-}
-article{
-    height: 150px;
+  article>p{
+    height: 100px;
     width: 300px;
-    position: absolute;
-    left: 25%;
-    top: 25%;
+    padding: 40px;
 
-    transform: translate(-10%, 0%);
-}
+  }
