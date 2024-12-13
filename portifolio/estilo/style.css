@@ -32,6 +32,25 @@
   #linha{
     
   }
+  .seta-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .linha {
+    width: 50px;
+    height: 5px;
+    background-color: black; /* Linha da seta */
+  }
+  
+  .triangulo {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black; /* Cor da seta */
+    margin-left: 5px;
+  }
 
   article>p{
     height: 100px;
